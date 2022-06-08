@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-import style from '../../style/main.scss'
+
 
 
 
@@ -14,7 +14,7 @@ export default function Hero(props) {
       <div className="hero">
         {func()}
         <div className="portrait">
-          <img src={props.image}/>
+          <img className="portrait-item" src={props.image}/>
         </div>
         <div className="text-wrapper">
           <div className="left-side">
@@ -24,6 +24,7 @@ export default function Hero(props) {
           </div>
           <div className="right-side">            
             <h3>{props.strengths}</h3>
+            <br></br>
             <h3>{props.weaknesses}</h3>
           </div>
         </div>
