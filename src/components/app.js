@@ -14,6 +14,6 @@ export default class App extends Component {
 
 
 
-// create a component for your second page
-// make a route for the component 
-// add a navbar for both your app and the component
+// make form on app.js that saves entries as state and render on app.js
+// create state and display it
+// multiple inputs that save to state 
